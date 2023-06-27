@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2019/12/18/13/57/old-4704062_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#seconds-holder,
+#minutes-holder {
+  display: inline-block;
+}
+#timer {
+  position: relative;
+  top: 30px;
+  font-size: 25px;
+}
+#chronometer-holder {
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+}
+#title {
+  text-align: center;
+  color: white;
+}
+#innerbox {
+  border: 2px solid darkorchid;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: 36%;
+  padding: 1%;
+}
+#start,
+#stop,
+#reset {
+  margin-top: 40px;
+  margin-right: 40px;
+  border: 4px solid blue;
+  border-radius: 10%;
+  padding: 10px;
+  color: white;
+  background-color: grey;
+}
